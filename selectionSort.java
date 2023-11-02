@@ -9,10 +9,11 @@ public class selectionSort {
         for(int i=0;i<n;i++){
             arr[i]=rand.nextInt(100);
         }
-        //unsorted
-        for(int i=0;i<n;i++){
-            System.out.print(arr[i]+" ");
-        }
+        // //unsorted
+        // System.out.println("Unsorted array");
+        // for(int i=0;i<n;i++){
+        //     System.out.print(arr[i]+" ");
+        // }
         System.out.println();
         //now sorting
         for(int i=0;i<n-2;i++){
@@ -29,10 +30,11 @@ public class selectionSort {
             }          
         }
 
-        //sorted print
-        for(int i=0;i<n;i++){
-            System.out.print(arr[i]+" ");
-        }
+        // //sorted print
+        // System.out.println("sorted array");
+        // for(int i=0;i<n;i++){
+        //     System.out.print(arr[i]+" ");
+        // }
     }
     public static void main(String args[]){
         selectionSort obj = new selectionSort();
@@ -45,8 +47,7 @@ public class selectionSort {
         long end1 = System.nanoTime();  
         long end2 = System.currentTimeMillis(); 
         
-        
-        System.out.println("Elapsed Time in nano seconds: "+ (end1-start1));      
+        System.out.println("\nElapsed Time in nano seconds: "+ (end1-start1));      
         System.out.println("Elapsed Time in milli seconds: "+ (end2-start2));
     }
 }
