@@ -3,6 +3,14 @@
 void main()
 {
  int n,i,j,a[10][10],s[10],d[10],v,k,min,u;
+ /*
+    n->no. of vertices
+    i,j,k->for loop
+    v->source vertex
+    a->cost matrix
+
+ */
+
  printf("Enter the number of vertices\n");
  scanf("%d",&n);
  printf("Enter the cost matrix \n");
